@@ -2,11 +2,11 @@ name: Upstream Sync
 
 permissions:
   contents: write
-workflow_run:
 
 on:
   schedule:
     - cron: "0 4 * * *" # At 12PM UTC+8
+  workflow_patch
 
 jobs:
   sync_latest_from_upstream:
