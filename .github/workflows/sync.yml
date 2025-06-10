@@ -2,6 +2,7 @@ name: Upstream Sync
 
 permissions:
   contents: write
+workflow_run:
 
 on:
   schedule:
